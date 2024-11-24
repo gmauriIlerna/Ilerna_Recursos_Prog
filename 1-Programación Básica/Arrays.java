@@ -4,7 +4,7 @@ public class Arrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] array = new int[5];
-        int[] array2 = {1,2,3,4,5};
+        int[] array2 = {1, 2, 3, 4, 5};
 
         System.out.println("Dame 5 numeros");
 
@@ -25,9 +25,9 @@ public class Arrays {
         array[3] = 10;
         array[4] = 11;
 
-        System.out.println("Te imprimo el otro array:");
+        System.out.println("Te imprimo otra vez el array:");
         for (int i = 0; i < array.length; i++) {
-            array[i] = scan.nextInt();
+            System.out.println(array[i] + " ");
         }
     }
 }
