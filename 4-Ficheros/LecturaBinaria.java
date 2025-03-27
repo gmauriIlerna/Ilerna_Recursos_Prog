@@ -19,6 +19,9 @@ public class LecturaBinaria {
             System.out.println("Número 1: " + numero1);
             System.out.println("Texto 2: " + texto2);
             System.out.println("Número 2: " + numero2);
+
+            dis.close();
+            fis.close();
         } catch (IOException e) {
             System.err.println("Error al leer el archivo binario: " + e.getMessage());
         }

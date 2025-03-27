@@ -16,6 +16,8 @@ public class EscrituraBinaria {
             dos.writeInt(2025);
 
             System.out.println("Archivo binario escrito correctamente.");
+            dos.close();
+            fos.close();
         } catch (IOException e) {
             System.err.println("Error al escribir el archivo binario: " + e.getMessage());
         }

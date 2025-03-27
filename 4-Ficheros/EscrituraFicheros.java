@@ -16,6 +16,9 @@ public class EscrituraFicheros {
             bw.newLine();
             bw.write("Fin del archivo.");
             System.out.println("Archivo escrito correctamente.");
+
+            bw.close();
+            fw.close();
         } catch (IOException e) {
             System.err.println("Error al escribir en el archivo: " + e.getMessage());
         }
