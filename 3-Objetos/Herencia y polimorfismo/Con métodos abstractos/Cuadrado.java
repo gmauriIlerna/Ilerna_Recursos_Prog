@@ -24,10 +24,12 @@ public class Cuadrado {
 		this.altura = altura;
 	}
 	
+	@Override
 	public double area() {
 		return this.base*this.altura;
 	}
 	
+	@Override
 	public double perimetro() {
 		return this.base*2+this.altura*2;
 	}
