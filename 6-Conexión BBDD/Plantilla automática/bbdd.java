@@ -30,11 +30,11 @@ public class bbdd {
 		s = s.toLowerCase();
 		
 		String URL;
-		
+
 		if(s.equals("centro")) {
-			URL = "jdbc:oracle:thin:@192.168.3.26:1521:xe";
+			URL = "jdbc:oracle:thin:@//192.168.3.26:1521/XEPDB2";
 		} else {
-			URL = "jdbc:oracle:thin:@oracle.ilerna.com:1521:xe";
+			URL = "jdbc:oracle:thin:@//oracle.ilerna.com:1521/XEPDB2";
 		}
 		
 		System.out.println("¿Usuario?");
