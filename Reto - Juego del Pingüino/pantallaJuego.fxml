@@ -139,7 +139,7 @@
                      <children>
                         <Text fx:id="eventos" strokeType="OUTSIDE" strokeWidth="0.0" text="Evento ocurrido" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="30.0">
                            <font>
-                              <Font size="32.0" />
+                              <Font size="18.0" />
                            </font>
                         </Text>
                      </children>
@@ -181,10 +181,22 @@
                         <Font size="30.0" />
                      </font>
                   </Text>
-                  <Circle fx:id="P1" fill="BLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" />
-                  <Circle fx:id="P2" fill="RED" radius="15.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                  <Circle fx:id="P3" fill="GREEN" radius="15.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="7" />
-                  <Circle fx:id="P4" fill="YELLOW" radius="15.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                  <Circle fx:id="P1" fill="BLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin></Circle>
+                  <Circle fx:id="P2" fill="RED" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                     <GridPane.margin>
+                        <Insets left="40.0" />
+                     </GridPane.margin></Circle>
+                  <Circle fx:id="P3" fill="GREEN" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                     <GridPane.margin>
+                        <Insets left="80.0" />
+                     </GridPane.margin></Circle>
+                  <Circle fx:id="P4" fill="YELLOW" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                     <GridPane.margin>
+                        <Insets left="120.0" />
+                     </GridPane.margin></Circle>
                </children>
             </GridPane>
          </center>
