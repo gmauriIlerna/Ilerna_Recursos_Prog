@@ -72,7 +72,7 @@
                <children>
                   <AnchorPane minHeight="200.0" minWidth="300.0">
                      <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ha salido: " AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="30.0">
+                        <Text fx:id="dadoResultText" strokeType="OUTSIDE" strokeWidth="0.0" text="Ha salido: " AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="30.0">
                            <font>
                               <Font size="32.0" />
                            </font>
